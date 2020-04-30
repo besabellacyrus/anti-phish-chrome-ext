@@ -1,7 +1,7 @@
-import nicejob from 'nicejob';
+import nicejob from "nicejob";
 
-setInterval(() => {
-  chrome.runtime.sendMessage({
-    message: nicejob()
-  });
-}, 1000);
+// setInterval(() => {
+//   chrome.runtime.sendMessage({
+//     message: nicejob()
+//   });
+// }, 1000);
